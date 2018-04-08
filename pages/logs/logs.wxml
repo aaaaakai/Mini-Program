@@ -10,4 +10,5 @@
   <button bindtap="tapFun">切换</button>
   <checkbox checked="{{flag}}"> </checkbox>
   <view wx:if="{{flag ? false : true}}">2333</view>
+  <text>测试</text>
 </view>
