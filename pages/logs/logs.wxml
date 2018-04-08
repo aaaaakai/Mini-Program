@@ -1,0 +1,13 @@
+<!--logs.wxml-->
+<view class="container log-list">
+  <block wx:for="{{logs}}" wx:for-item="log" wx:key="index">
+    <!-- <text class="log-item">{{index + 1}}. {{log}}</text> -->
+  </block>
+  <view>{{msg}}</view>
+  <image src="{{source}}"></image>
+  <button bindtap="chooseFun">选择</button>
+  <button bindtap="uploadFun">上传</button>
+  <button bindtap="tapFun">切换</button>
+  <checkbox checked="{{flag}}"> </checkbox>
+  <view wx:if="{{flag ? false : true}}">2333</view>
+</view>

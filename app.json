@@ -1,0 +1,26 @@
+{
+  "pages":[
+    "pages/logs/logs",
+    "pages/index/index"
+  ],
+  "tabBar": {
+    "selectedColor": "#0ff",
+    "borderStyle": "white",
+    "color": "#000",
+    "position": "bottom",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页"
+    }, {
+      "pagePath": "pages/logs/logs",
+      "text": "子页"
+    }]
+  },
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#aaa",
+    "navigationBarTextStyle":"white",
+    "navigationStyle": "default",
+    "enablePullDownRefresh": true
+  }
+}
