@@ -11,4 +11,5 @@
   <checkbox checked="{{flag}}"> </checkbox>
   <view wx:if="{{flag ? false : true}}">2333</view>
   <text>测试</text>
+  <text>测试Ⅱ</text>
 </view>
